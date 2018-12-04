@@ -1,5 +1,3 @@
-FROM    tiangolo/uwsgi-nginx-flask:python3.6
+FROM    jetpac33/azure-vote-front:v2 
 
-RUN     pip install redis
- 
 ADD     /azure-vote /app
