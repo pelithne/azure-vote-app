@@ -34,7 +34,7 @@ spec:
     spec:
       containers:
       - name: azure-vote-front
-        image: plithneracr.azurecr.io/testrun/azure-vote-front:v1 
+        image: microsoft/azure-vote-front:v1 
         imagePullPolicy: Always
         ports:
         - containerPort: 80
